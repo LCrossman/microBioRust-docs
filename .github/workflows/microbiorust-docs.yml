@@ -3,7 +3,7 @@ on:
   push:
     paths:
       - mkdocs.yml
-      - microBioRust-docs/**
+      - main
 permissions:
   contents: write
 jobs:
