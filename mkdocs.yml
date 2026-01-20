@@ -1,5 +1,5 @@
 site_name: microBioRust docs
-site_url: https://lcrossman.github.io/microBioRust/
+site_url: https://lcrossman.github.io/microBioRust-docs/
 theme:
   name: material
   # logo: images/pc_specs.png
