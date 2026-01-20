@@ -25,6 +25,7 @@ nav:
   - Windows Install: windows_install.md
   - Usage: usage.md
   - Formats & Parsing: formats_and_parsing.md
+  - Alignment Parsing: multiple_sequence_alignments.md
 features:
   - navigation.tabs
 markdown_extensions:
