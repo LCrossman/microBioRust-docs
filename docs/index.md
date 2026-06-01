@@ -14,19 +14,34 @@ A blazing-fast, sustainable bioinformatics toolkit written in [Rust](https://www
 
 ## Get Started!!
 See Installation for details on how to install Rust for Linux, MacOSX and Windows
-Interested in microbiorust-py?  Check out the microbiorust-py section for quick-start & more! 
+Interested in microbiorust-py?  Check out the microbiorust-py section for quick-start & more!  
 
-Start a new project
-```cargo new microBioRust_test```
+Install microbiorust-py from pip
 
-Add to your Cargo.toml
-```cargo add -p microBioRust```
+```
+pip install microbiorust
+```
 
-to add the whole workspace including file parsing, sequence metrics, coming soon data viz (heatmap demonstration) and python bindings (microbiorust-py)
+For Rust:
 
-```cargo add -p seqmetrics```  
-```cargo add -p heatmap```  
-```cargo add -p microbiorust-py```
+Using microBioRust in a Rust Project:  
+
+To start a new project:
+
+```
+cargo new microbiorust_test  
+
+cd microbiorust_test
+```
+
+To add the microBioRust format parsing crate to your Cargo.toml
+```cargo add microBioRust```
+
+to add other members of the workspace including sequence metrics, python bindings and data viz (heatmap demonstration)
+
+```cargo add seqmetrics```  
+```cargo add heatmap```    
+```cargo add microbiorust-py```
 
 or clone the repo  
 ```git clone https://github.com/LCrossman/microBioRust.git```

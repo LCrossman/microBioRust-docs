@@ -21,6 +21,7 @@ theme:
        accent: custom
 nav:
   - Index: index.md
+  - Python microbiorust-py: microbiorust-py.md
   - Installation: installation.md
   - Windows Install: windows_install.md
   - Usage: usage.md
